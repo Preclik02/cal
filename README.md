@@ -1,0 +1,1 @@
+So Like its quite easy to figure out what it does simply you just need to write the budget (you cant do float numbers like 6.9) and select some case Im missing the operation case and the prices arent updated since - 6/3/2025
