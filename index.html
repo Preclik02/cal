@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I dont know</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <h1>Vitej na CS2 kalkulace</h1>
+    <hr>
+    <h4>Mame aktualni ceny s presnym vypoctem beden</h4>
+    
+    <form id="calculator-form">
+        <label for="amount">Kolik euro mas:</label>
+        <input type="number" id="amount" name="amount" required>
+
+        <label for="case">Vyber bednu:</label>
+        <select id="case" name="case" required>
+            <option value="0.93">Gallery case</option>
+            <option value="0.83">Kilowatt case</option>
+            <option value="0.32">Recoil case</option>
+            <option value="1.43">Prisma 2 case</option>
+            <option value="0.45">Fracture case</option>
+            <option value="1.45">Danger zone case</option>
+            <option value="2.01">Dream and Nightmare case</option>
+            <option value="1.86">Shadow case</option>
+            <option value="2.22">Falchion case</option>
+            <option value="0.78">Clutch case</option>
+            <option value="1.96">Horizon case</option>
+            <option value="1.33">Prisma case</option>
+            <option value="0.40">Snake case</option>
+            <option value="0.61">Revolution case</option>
+            <option value="1.05">Cs20 case</option>
+            <option value="3.56">Spectrum 2 case</option>
+            <option value="3.72">Chroma 3 case</option>
+            <option value="3.99">Chroma 2 case</option>
+            <option value="5.37">Chroma case</option>
+            <option value="9.60">Glove case</option>
+            <option value="4.24">Gamma case</option>
+            <option value="5.36">Shattered web case</option>
+            <option value="4.00">Gamma 2 case</option>
+            <option value="5.00">Spectrum case</option>
+            <option value="58.24">Bravo case</option>
+            <option value="127.66">Weapon case</option>
+            <option value="14.19">Weapon 2 case</option>
+            <option value="9.30">Weapon 3 case</option>
+        </select>
+
+        <button type="submit">Vypocitat</button>
+    </form>
+
+    <p id="result"></p>
+
+    <a href="https://casecalculator.app/">
+        <button>Credit</button>
+    </a>
+
+    <script src="index.js"></script>
+</body>
+</html>
